@@ -1,0 +1,207 @@
+.encabezadototal{
+    flex-direction: row !important;
+}
+
+#logo{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.buscador{
+    margin-left: 40px;
+    width: 250px;
+    height: 20px;
+    margin-top: 35px;
+}
+
+#buscador2{
+    margin-top: 45px;
+}
+
+#titulo1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+
+#fondobody{
+    background-color: #EAC926;
+}
+
+#fondomain{
+    background-color: #ebebeb;
+}
+
+.container1{
+    width: 90%;
+    border: gray;
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.container0{
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftnavbar{
+    justify-content: flex-start;
+}
+
+.rightnavbar{
+    justify-content: flex-end;
+}
+
+#titulo2{
+    color: #666;
+    margin-left: 25px;
+}
+
+
+
+
+.card{        
+    display: flex;
+    box-shadow: 3px 3px 3px 3px grey;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.camion{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 2px #5cb85c;
+}
+
+
+.cardbody{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 5px;
+    align-content: flex-end;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 2px #5cb85c;
+}
+
+.precioydescuento{
+    flex-direction: row;
+ }
+
+
+
+
+
+
+#hamburguesa{
+    background-color: #033ff9;
+    box-sizing: border-box;
+    border: solid #033ff9 8px;
+    /*display: inline-block*/
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (min-with: 768px) {
+    #hamburguer{
+        display: none;
+    }
+}
+
+
+.descripcion{
+    color:grey;
+    align-content: flex-start;
+}
+
+
+.descuentoenviooferta{
+    color: #5cb85c;
+}
+
+#envio{
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+
+#fondofooter{
+    background-color: white;
+    display: block;
+    max-width: 100% !important;
+}
+
+.item2{
+    display: inline-flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    align-items: baseline;
+    margin: 15px
+}
+
+.pie{
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+}
+
+.pie1{
+    text-align: center;
+    color: #0a3666;
+    padding-top: 30px;
+}
+
+.icono{
+    text-align: center;
+    color: blue;
+}
+
+#buscador2{
+    margin-top: 45px;
+}
+
+#icono3{
+    text-align: center;
+}
+
+
+.formulario{
+    height: 30px;
+    width: 450px;
+    align-content: center;
+    display: table;
+    margin: 0 auto;
+}
+
+#form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#parrafo3{
+     color:grey;
+}
+
+#botoncito{
+    background-color: #033ff9;
+    color:white;
+}
